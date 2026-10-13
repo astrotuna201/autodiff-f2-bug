@@ -1,0 +1,562 @@
+Fetching https://github.com/apple/swift-system from cache
+Fetching https://github.com/apple/swift-metrics.git from cache
+Fetching https://github.com/differentiable-swift/swift-differentiation-stdlib from cache
+Fetching https://github.com/differentiable-swift/swift-differentiation from cache
+Fetching https://github.com/apple/swift-algorithms from cache
+Fetching https://github.com/ml-explore/mlx-swift from cache
+Fetching https://github.com/apple/swift-log.git from cache
+Fetching https://github.com/apple/swift-atomics from cache
+Fetching https://github.com/apple/swift-numerics from cache
+Fetching https://github.com/patrick-zippenfenig/SwiftNetCDF.git from cache
+Fetched https://github.com/differentiable-swift/swift-differentiation-stdlib from cache (0.67s)
+Fetched https://github.com/apple/swift-system from cache (0.92s)
+Fetched https://github.com/apple/swift-metrics.git from cache (1.00s)
+Fetched https://github.com/apple/swift-algorithms from cache (1.10s)
+Fetched https://github.com/apple/swift-numerics from cache (1.16s)
+Fetched https://github.com/patrick-zippenfenig/SwiftNetCDF.git from cache (1.20s)
+Fetched https://github.com/differentiable-swift/swift-differentiation from cache (1.21s)
+Fetched https://github.com/ml-explore/mlx-swift from cache (1.24s)
+Fetched https://github.com/apple/swift-atomics from cache (1.26s)
+Fetched https://github.com/apple/swift-log.git from cache (1.35s)
+Computing version for https://github.com/ml-explore/mlx-swift
+Computed https://github.com/ml-explore/mlx-swift at 0.32.3 (1.84s)
+Computing version for https://github.com/patrick-zippenfenig/SwiftNetCDF.git
+Computed https://github.com/patrick-zippenfenig/SwiftNetCDF.git at 1.2.0 (0.54s)
+Computing version for https://github.com/apple/swift-metrics.git
+Computed https://github.com/apple/swift-metrics.git at 2.12.0 (0.32s)
+Computing version for https://github.com/apple/swift-log.git
+Computed https://github.com/apple/swift-log.git at 1.16.1 (0.33s)
+Computing version for https://github.com/apple/swift-numerics
+Computed https://github.com/apple/swift-numerics at 1.1.1 (0.32s)
+Computing version for https://github.com/apple/swift-atomics
+Computed https://github.com/apple/swift-atomics at 1.3.1 (0.32s)
+Computing version for https://github.com/apple/swift-algorithms
+Computed https://github.com/apple/swift-algorithms at 1.2.1 (0.39s)
+Computing version for https://github.com/apple/swift-system
+Computed https://github.com/apple/swift-system at 1.8.1 (0.34s)
+Computing version for https://github.com/differentiable-swift/swift-differentiation
+Computed https://github.com/differentiable-swift/swift-differentiation at 3.1.0 (0.32s)
+Computing version for https://github.com/differentiable-swift/swift-differentiation-stdlib
+Computed https://github.com/differentiable-swift/swift-differentiation-stdlib at 604.0.0 (0.30s)
+Creating working copy for https://github.com/apple/swift-log.git
+Working copy of https://github.com/apple/swift-log.git resolved at 1.16.1
+Creating working copy for https://github.com/differentiable-swift/swift-differentiation-stdlib
+Working copy of https://github.com/differentiable-swift/swift-differentiation-stdlib resolved at 604.0.0
+Creating working copy for https://github.com/apple/swift-atomics
+Working copy of https://github.com/apple/swift-atomics resolved at 1.3.1
+Creating working copy for https://github.com/apple/swift-numerics
+Working copy of https://github.com/apple/swift-numerics resolved at 1.1.1
+Creating working copy for https://github.com/patrick-zippenfenig/SwiftNetCDF.git
+Working copy of https://github.com/patrick-zippenfenig/SwiftNetCDF.git resolved at 1.2.0
+Creating working copy for https://github.com/ml-explore/mlx-swift
+Working copy of https://github.com/ml-explore/mlx-swift resolved at 0.32.3
+Creating working copy for https://github.com/apple/swift-algorithms
+Working copy of https://github.com/apple/swift-algorithms resolved at 1.2.1
+Creating working copy for https://github.com/differentiable-swift/swift-differentiation
+Working copy of https://github.com/differentiable-swift/swift-differentiation resolved at 3.1.0
+Creating working copy for https://github.com/apple/swift-system
+Working copy of https://github.com/apple/swift-system resolved at 1.8.1
+Creating working copy for https://github.com/apple/swift-metrics.git
+Working copy of https://github.com/apple/swift-metrics.git resolved at 2.12.0
+Fetching binary artifact https://github.com/differentiable-swift/swift-differentiation-stdlib/releases/download/604.0.0/_Differentiation-swift-6.4.0-RELEASE.xcframework.zip from cache
+Fetched https://github.com/differentiable-swift/swift-differentiation-stdlib/releases/download/604.0.0/_Differentiation-swift-6.4.0-RELEASE.xcframework.zip from cache (0.14s)
+Building for production...
+[Computing dependencies]
+[Pre-planning 1 / 695]
+[Planning deferred tasks]
+[121 / 453]
+[137 / 453] mlx-swift_Cmlx
+In file included from /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/dot.metal:3:
+In file included from /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/dot.h:5:
+In file included from /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/utils.h:9:
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/complex.h:157:54: warning: 'static_assert' with no message is a C++17 extension [-Wc++17-extensions]
+static_assert(sizeof(complex32_t) == 2 * sizeof(half));
+                                                     ^
+                                                     , ""
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/complex.h:158:55: warning: 'static_assert' with no message is a C++17 extension [-Wc++17-extensions]
+static_assert(sizeof(complex64_t) == 2 * sizeof(float));
+                                                      ^
+                                                      , ""
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/complex.h:159:70: warning: 'static_assert' with no message is a C++17 extension [-Wc++17-extensions]
+static_assert(sizeof(complex_t<bfloat16_t>) == 2 * sizeof(bfloat16_t));
+                                                                     ^
+                                                                     , ""
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/complex.h:299:78: warning: 'static_assert' with no message is a C++17 extension [-Wc++17-extensions]
+    (complex_t<half>{1.0h, 2.0h} * complex_t<half>{3.0h, 4.0h}).real == -5.0h);
+                                                                             ^
+                                                                             , ""
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/complex.h:303:35: warning: 'static_assert' with no message is a C++17 extension [-Wc++17-extensions]
+        .real == bfloat16_t(-5.0f));
+                                  ^
+                                  , ""
+In file included from /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/dot.metal:3:
+In file included from /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/dot.h:5:
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/utils.h:80:3: warning: inline variables are a C++17 extension [-Wc++17-extensions]
+  inline static constexpr constant complex_t<T> max = complex_t<T>(
+  ^
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/utils.h:83:3: warning: inline variables are a C++17 extension [-Wc++17-extensions]
+  inline static constexpr constant complex_t<T> min = complex_t<T>(
+  ^
+7 warnings generated.
+In file included from /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/random.metal:3:
+In file included from /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/utils.h:9:
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/complex.h:157:54: warning: 'static_assert' with no message is a C++17 extension [-Wc++17-extensions]
+static_assert(sizeof(complex32_t) == 2 * sizeof(half));
+                                                     ^
+                                                     , ""
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/complex.h:158:55: warning: 'static_assert' with no message is a C++17 extension [-Wc++17-extensions]
+static_assert(sizeof(complex64_t) == 2 * sizeof(float));
+                                                      ^
+                                                      , ""
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/complex.h:159:70: warning: 'static_assert' with no message is a C++17 extension [-Wc++17-extensions]
+static_assert(sizeof(complex_t<bfloat16_t>) == 2 * sizeof(bfloat16_t));
+                                                                     ^
+                                                                     , ""
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/complex.h:299:78: warning: 'static_assert' with no message is a C++17 extension [-Wc++17-extensions]
+    (complex_t<half>{1.0h, 2.0h} * complex_t<half>{3.0h, 4.0h}).real == -5.0h);
+                                                                             ^
+                                                                             , ""
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/complex.h:303:35: warning: 'static_assert' with no message is a C++17 extension [-Wc++17-extensions]
+        .real == bfloat16_t(-5.0f));
+                                  ^
+                                  , ""
+In file included from /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/random.metal:3:
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/utils.h:80:3: warning: inline variables are a C++17 extension [-Wc++17-extensions]
+  inline static constexpr constant complex_t<T> max = complex_t<T>(
+  ^
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/utils.h:83:3: warning: inline variables are a C++17 extension [-Wc++17-extensions]
+  inline static constexpr constant complex_t<T> min = complex_t<T>(
+  ^
+7 warnings generated.
+In file included from /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/rope.metal:5:
+In file included from /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/utils.h:9:
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/complex.h:157:54: warning: 'static_assert' with no message is a C++17 extension [-Wc++17-extensions]
+static_assert(sizeof(complex32_t) == 2 * sizeof(half));
+                                                     ^
+                                                     , ""
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/complex.h:158:55: warning: 'static_assert' with no message is a C++17 extension [-Wc++17-extensions]
+static_assert(sizeof(complex64_t) == 2 * sizeof(float));
+                                                      ^
+                                                      , ""
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/complex.h:159:70: warning: 'static_assert' with no message is a C++17 extension [-Wc++17-extensions]
+static_assert(sizeof(complex_t<bfloat16_t>) == 2 * sizeof(bfloat16_t));
+                                                                     ^
+                                                                     , ""
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/complex.h:299:78: warning: 'static_assert' with no message is a C++17 extension [-Wc++17-extensions]
+    (complex_t<half>{1.0h, 2.0h} * complex_t<half>{3.0h, 4.0h}).real == -5.0h);
+                                                                             ^
+                                                                             , ""
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/complex.h:303:35: warning: 'static_assert' with no message is a C++17 extension [-Wc++17-extensions]
+        .real == bfloat16_t(-5.0f));
+                                  ^
+                                  , ""
+In file included from /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/rope.metal:5:
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/utils.h:80:3: warning: inline variables are a C++17 extension [-Wc++17-extensions]
+  inline static constexpr constant complex_t<T> max = complex_t<T>(
+  ^
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/utils.h:83:3: warning: inline variables are a C++17 extension [-Wc++17-extensions]
+  inline static constexpr constant complex_t<T> min = complex_t<T>(
+  ^
+7 warnings generated.
+In file included from /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/searchsorted.metal:6:
+In file included from /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/utils.h:9:
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/complex.h:157:54: warning: 'static_assert' with no message is a C++17 extension [-Wc++17-extensions]
+static_assert(sizeof(complex32_t) == 2 * sizeof(half));
+                                                     ^
+                                                     , ""
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/complex.h:158:55: warning: 'static_assert' with no message is a C++17 extension [-Wc++17-extensions]
+static_assert(sizeof(complex64_t) == 2 * sizeof(float));
+                                                      ^
+                                                      , ""
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/complex.h:159:70: warning: 'static_assert' with no message is a C++17 extension [-Wc++17-extensions]
+static_assert(sizeof(complex_t<bfloat16_t>) == 2 * sizeof(bfloat16_t));
+                                                                     ^
+                                                                     , ""
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/complex.h:299:78: warning: 'static_assert' with no message is a C++17 extension [-Wc++17-extensions]
+    (complex_t<half>{1.0h, 2.0h} * complex_t<half>{3.0h, 4.0h}).real == -5.0h);
+                                                                             ^
+                                                                             , ""
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/complex.h:303:35: warning: 'static_assert' with no message is a C++17 extension [-Wc++17-extensions]
+        .real == bfloat16_t(-5.0f));
+                                  ^
+                                  , ""
+In file included from /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/searchsorted.metal:6:
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/utils.h:80:3: warning: inline variables are a C++17 extension [-Wc++17-extensions]
+  inline static constexpr constant complex_t<T> max = complex_t<T>(
+  ^
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/utils.h:83:3: warning: inline variables are a C++17 extension [-Wc++17-extensions]
+  inline static constexpr constant complex_t<T> min = complex_t<T>(
+  ^
+In file included from /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/searchsorted.metal:7:
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/sort.h:43:8: warning: constexpr if is a C++17 extension [-Wc++17-extensions]
+    if constexpr (metal::is_floating_point_v<T>) {
+       ^
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/sort.h:49:15: warning: constexpr if is a C++17 extension [-Wc++17-extensions]
+    } else if constexpr (metal::is_same_v<T, complex64_t>) {
+              ^
+9 warnings generated.
+In file included from /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/rms_norm.metal:6:
+In file included from /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/utils.h:9:
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/complex.h:157:54: warning: 'static_assert' with no message is a C++17 extension [-Wc++17-extensions]
+static_assert(sizeof(complex32_t) == 2 * sizeof(half));
+                                                     ^
+                                                     , ""
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/complex.h:158:55: warning: 'static_assert' with no message is a C++17 extension [-Wc++17-extensions]
+static_assert(sizeof(complex64_t) == 2 * sizeof(float));
+                                                      ^
+                                                      , ""
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/complex.h:159:70: warning: 'static_assert' with no message is a C++17 extension [-Wc++17-extensions]
+static_assert(sizeof(complex_t<bfloat16_t>) == 2 * sizeof(bfloat16_t));
+                                                                     ^
+                                                                     , ""
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/complex.h:299:78: warning: 'static_assert' with no message is a C++17 extension [-Wc++17-extensions]
+    (complex_t<half>{1.0h, 2.0h} * complex_t<half>{3.0h, 4.0h}).real == -5.0h);
+                                                                             ^
+                                                                             , ""
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/complex.h:303:35: warning: 'static_assert' with no message is a C++17 extension [-Wc++17-extensions]
+        .real == bfloat16_t(-5.0f));
+                                  ^
+                                  , ""
+In file included from /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/rms_norm.metal:6:
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/utils.h:80:3: warning: inline variables are a C++17 extension [-Wc++17-extensions]
+  inline static constexpr constant complex_t<T> max = complex_t<T>(
+  ^
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/utils.h:83:3: warning: inline variables are a C++17 extension [-Wc++17-extensions]
+  inline static constexpr constant complex_t<T> min = complex_t<T>(
+  ^
+7 warnings generated.
+In file included from /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/layer_norm.metal:6:
+In file included from /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/utils.h:9:
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/complex.h:157:54: warning: 'static_assert' with no message is a C++17 extension [-Wc++17-extensions]
+static_assert(sizeof(complex32_t) == 2 * sizeof(half));
+                                                     ^
+                                                     , ""
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/complex.h:158:55: warning: 'static_assert' with no message is a C++17 extension [-Wc++17-extensions]
+static_assert(sizeof(complex64_t) == 2 * sizeof(float));
+                                                      ^
+                                                      , ""
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/complex.h:159:70: warning: 'static_assert' with no message is a C++17 extension [-Wc++17-extensions]
+static_assert(sizeof(complex_t<bfloat16_t>) == 2 * sizeof(bfloat16_t));
+                                                                     ^
+                                                                     , ""
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/complex.h:299:78: warning: 'static_assert' with no message is a C++17 extension [-Wc++17-extensions]
+    (complex_t<half>{1.0h, 2.0h} * complex_t<half>{3.0h, 4.0h}).real == -5.0h);
+                                                                             ^
+                                                                             , ""
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/complex.h:303:35: warning: 'static_assert' with no message is a C++17 extension [-Wc++17-extensions]
+        .real == bfloat16_t(-5.0f));
+                                  ^
+                                  , ""
+In file included from /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/layer_norm.metal:6:
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/utils.h:80:3: warning: inline variables are a C++17 extension [-Wc++17-extensions]
+  inline static constexpr constant complex_t<T> max = complex_t<T>(
+  ^
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/utils.h:83:3: warning: inline variables are a C++17 extension [-Wc++17-extensions]
+  inline static constexpr constant complex_t<T> min = complex_t<T>(
+  ^
+7 warnings generated.
+In file included from /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/conv.metal:8:
+In file included from /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/utils.h:9:
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/complex.h:157:54: warning: 'static_assert' with no message is a C++17 extension [-Wc++17-extensions]
+static_assert(sizeof(complex32_t) == 2 * sizeof(half));
+                                                     ^
+                                                     , ""
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/complex.h:158:55: warning: 'static_assert' with no message is a C++17 extension [-Wc++17-extensions]
+static_assert(sizeof(complex64_t) == 2 * sizeof(float));
+                                                      ^
+                                                      , ""
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/complex.h:159:70: warning: 'static_assert' with no message is a C++17 extension [-Wc++17-extensions]
+static_assert(sizeof(complex_t<bfloat16_t>) == 2 * sizeof(bfloat16_t));
+                                                                     ^
+                                                                     , ""
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/complex.h:299:78: warning: 'static_assert' with no message is a C++17 extension [-Wc++17-extensions]
+    (complex_t<half>{1.0h, 2.0h} * complex_t<half>{3.0h, 4.0h}).real == -5.0h);
+                                                                             ^
+                                                                             , ""
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/complex.h:303:35: warning: 'static_assert' with no message is a C++17 extension [-Wc++17-extensions]
+        .real == bfloat16_t(-5.0f));
+                                  ^
+                                  , ""
+In file included from /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/conv.metal:8:
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/utils.h:80:3: warning: inline variables are a C++17 extension [-Wc++17-extensions]
+  inline static constexpr constant complex_t<T> max = complex_t<T>(
+  ^
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/utils.h:83:3: warning: inline variables are a C++17 extension [-Wc++17-extensions]
+  inline static constexpr constant complex_t<T> min = complex_t<T>(
+  ^
+7 warnings generated.
+In file included from /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/arg_reduce.metal:5:
+In file included from /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/utils.h:9:
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/complex.h:157:54: warning: 'static_assert' with no message is a C++17 extension [-Wc++17-extensions]
+static_assert(sizeof(complex32_t) == 2 * sizeof(half));
+                                                     ^
+                                                     , ""
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/complex.h:158:55: warning: 'static_assert' with no message is a C++17 extension [-Wc++17-extensions]
+static_assert(sizeof(complex64_t) == 2 * sizeof(float));
+                                                      ^
+                                                      , ""
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/complex.h:159:70: warning: 'static_assert' with no message is a C++17 extension [-Wc++17-extensions]
+static_assert(sizeof(complex_t<bfloat16_t>) == 2 * sizeof(bfloat16_t));
+                                                                     ^
+                                                                     , ""
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/complex.h:299:78: warning: 'static_assert' with no message is a C++17 extension [-Wc++17-extensions]
+    (complex_t<half>{1.0h, 2.0h} * complex_t<half>{3.0h, 4.0h}).real == -5.0h);
+                                                                             ^
+                                                                             , ""
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/complex.h:303:35: warning: 'static_assert' with no message is a C++17 extension [-Wc++17-extensions]
+        .real == bfloat16_t(-5.0f));
+                                  ^
+                                  , ""
+In file included from /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/arg_reduce.metal:5:
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/utils.h:80:3: warning: inline variables are a C++17 extension [-Wc++17-extensions]
+  inline static constexpr constant complex_t<T> max = complex_t<T>(
+  ^
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/utils.h:83:3: warning: inline variables are a C++17 extension [-Wc++17-extensions]
+  inline static constexpr constant complex_t<T> min = complex_t<T>(
+  ^
+7 warnings generated.
+In file included from /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/scaled_dot_product_attention.metal:4:
+In file included from /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/utils.h:9:
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/complex.h:157:54: warning: 'static_assert' with no message is a C++17 extension [-Wc++17-extensions]
+static_assert(sizeof(complex32_t) == 2 * sizeof(half));
+                                                     ^
+                                                     , ""
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/complex.h:158:55: warning: 'static_assert' with no message is a C++17 extension [-Wc++17-extensions]
+static_assert(sizeof(complex64_t) == 2 * sizeof(float));
+                                                      ^
+                                                      , ""
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/complex.h:159:70: warning: 'static_assert' with no message is a C++17 extension [-Wc++17-extensions]
+static_assert(sizeof(complex_t<bfloat16_t>) == 2 * sizeof(bfloat16_t));
+                                                                     ^
+                                                                     , ""
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/complex.h:299:78: warning: 'static_assert' with no message is a C++17 extension [-Wc++17-extensions]
+    (complex_t<half>{1.0h, 2.0h} * complex_t<half>{3.0h, 4.0h}).real == -5.0h);
+                                                                             ^
+                                                                             , ""
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/complex.h:303:35: warning: 'static_assert' with no message is a C++17 extension [-Wc++17-extensions]
+        .real == bfloat16_t(-5.0f));
+                                  ^
+                                  , ""
+In file included from /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/scaled_dot_product_attention.metal:4:
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/utils.h:80:3: warning: inline variables are a C++17 extension [-Wc++17-extensions]
+  inline static constexpr constant complex_t<T> max = complex_t<T>(
+  ^
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/utils.h:83:3: warning: inline variables are a C++17 extension [-Wc++17-extensions]
+  inline static constexpr constant complex_t<T> min = complex_t<T>(
+  ^
+7 warnings generated.
+[137 / 453]
+[155 / 460] RealModule
+[157 / 469] Differentiation
+[157 / 473] SystemPackage
+[160 / 492]
+[165 / 597]
+In file included from /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/steel/attn/kernels/steel_attention.metal:4:
+In file included from /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/steel/attn/kernels/../../../utils.h:9:
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/steel/attn/kernels/../../../complex.h:157:54: warning: 'static_assert' with no message is a C++17 extension [-Wc++17-extensions]
+static_assert(sizeof(complex32_t) == 2 * sizeof(half));
+                                                     ^
+                                                     , ""
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/steel/attn/kernels/../../../complex.h:158:55: warning: 'static_assert' with no message is a C++17 extension [-Wc++17-extensions]
+static_assert(sizeof(complex64_t) == 2 * sizeof(float));
+                                                      ^
+                                                      , ""
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/steel/attn/kernels/../../../complex.h:159:70: warning: 'static_assert' with no message is a C++17 extension [-Wc++17-extensions]
+static_assert(sizeof(complex_t<bfloat16_t>) == 2 * sizeof(bfloat16_t));
+                                                                     ^
+                                                                     , ""
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/steel/attn/kernels/../../../complex.h:299:78: warning: 'static_assert' with no message is a C++17 extension [-Wc++17-extensions]
+    (complex_t<half>{1.0h, 2.0h} * complex_t<half>{3.0h, 4.0h}).real == -5.0h);
+                                                                             ^
+                                                                             , ""
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/steel/attn/kernels/../../../complex.h:303:35: warning: 'static_assert' with no message is a C++17 extension [-Wc++17-extensions]
+        .real == bfloat16_t(-5.0f));
+                                  ^
+                                  , ""
+In file included from /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/steel/attn/kernels/steel_attention.metal:4:
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/steel/attn/kernels/../../../utils.h:80:3: warning: inline variables are a C++17 extension [-Wc++17-extensions]
+  inline static constexpr constant complex_t<T> max = complex_t<T>(
+  ^
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/steel/attn/kernels/../../../utils.h:83:3: warning: inline variables are a C++17 extension [-Wc++17-extensions]
+  inline static constexpr constant complex_t<T> min = complex_t<T>(
+  ^
+In file included from /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/steel/attn/kernels/steel_attention.metal:6:
+In file included from /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/steel/attn/kernels/../../../steel/attn/kernels/steel_attention.h:3:
+In file included from /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/steel/attn/kernels/../../../steel/attn/attn.h:6:
+In file included from /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/steel/attn/kernels/../../../steel/attn/../../steel/attn/mma.h:11:
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/steel/attn/kernels/../../../steel/attn/../../steel/utils/integral_constant.h:105:6: warning: constexpr if is a C++17 extension [-Wc++17-extensions]
+  if constexpr (start < stop) {
+     ^
+In file included from /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/steel/attn/kernels/steel_attention.metal:6:
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/steel/attn/kernels/../../../steel/attn/kernels/steel_attention.h:361:16: warning: constexpr if is a C++17 extension [-Wc++17-extensions]
+            if constexpr (is_bool) {
+               ^
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/steel/attn/kernels/../../../steel/attn/kernels/steel_attention.h:431:14: warning: constexpr if is a C++17 extension [-Wc++17-extensions]
+          if constexpr (BD >= 128) {
+             ^
+/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/steel/attn/kernels/../../../steel/attn/kernels/steel_attention.h:441:14: warning: constexpr if is a C++17 extension [-Wc++17-extensions]
+          if constexpr (BD >= 128) {
+             ^
+11 warnings generated.
+[176 / 598]
+[188 / 598]
+[197 / 598] Cmlx
+[206 / 598]
+[214 / 598]
+[220 / 598]
+[228 / 598]
+[228 / 598] Cmlx
+[240 / 598]
+[243 / 598] CoreMetrics
+[244 / 598]
+[246 / 598]
+[248 / 598]
+[249 / 598]
+[253 / 598]
+[256 / 598]
+[261 / 598] Cmlx
+[265 / 598]
+[269 / 598]
+[272 / 598] CoreMetrics
+[280 / 598]
+[282 / 598]
+[284 / 598]
+[285 / 598] Cmlx
+[287 / 598]
+[291 / 598] Cmlx
+[295 / 598] Cmlx
+[302 / 598] Cmlx
+[304 / 598] Cmlx
+[315 / 598] Cmlx
+[316 / 598] Atomics
+[317 / 598] Cmlx
+[323 / 598] Cmlx
+[327 / 598] Cmlx
+[329 / 598] Cmlx
+[331 / 598] Cmlx
+[332 / 598] SwiftNetCDF
+[333 / 598] Cmlx
+[339 / 598] Cmlx
+[341 / 598] Cmlx
+[343 / 598] Cmlx
+[349 / 598] Cmlx
+[350 / 598] Cmlx
+[352 / 598] Cmlx
+[354 / 598] SystemPackage
+[355 / 598] Cmlx
+[362 / 598] Cmlx
+[363 / 598] Cmlx
+[364 / 598] Cmlx
+[366 / 598] Cmlx
+[368 / 598] Cmlx
+[369 / 598] Cmlx
+[371 / 598] Cmlx
+[372 / 598] Cmlx
+[376 / 598] Cmlx
+[377 / 598] Cmlx
+[381 / 598] Cmlx
+[383 / 598] Cmlx
+[384 / 598] Cmlx
+[387 / 598] Cmlx
+[389 / 598] Cmlx
+[392 / 598] Cmlx
+[393 / 598] Cmlx
+[394 / 598] Cmlx
+[396 / 598] Cmlx
+[402 / 598] Cmlx
+[408 / 598] Cmlx
+[409 / 598] Cmlx
+[411 / 598] Cmlx
+[412 / 598] Cmlx
+[414 / 598] Cmlx
+[415 / 598] Cmlx
+[416 / 598] Cmlx
+[417 / 598] Cmlx
+[419 / 598] Cmlx
+[421 / 598] Cmlx
+[422 / 598] Cmlx
+[423 / 598] Cmlx
+[425 / 598] Cmlx
+[426 / 598] Cmlx
+[427 / 598] Cmlx
+[429 / 598] Cmlx
+[430 / 598] Cmlx
+[432 / 598] Cmlx
+[434 / 598] Cmlx
+[435 / 598] Cmlx
+[437 / 598] Cmlx
+[438 / 598] Cmlx
+[439 / 598] Cmlx
+[440 / 598] Cmlx
+[443 / 598] Cmlx
+[445 / 598] Cmlx
+[446 / 598] Cmlx
+[448 / 598] Cmlx
+[451 / 598] Cmlx
+[452 / 598] Cmlx
+[453 / 598] Cmlx
+[456 / 598] Differentiation
+[462 / 598] Cmlx
+[465 / 598] Cmlx
+[467 / 598] Cmlx
+[468 / 598] Cmlx
+[470 / 598] Cmlx
+[471 / 598] Cmlx
+[478 / 598]
+[489 / 598] mlx-swift_Cmlx
+[498 / 598] SystemPackage
+[508 / 599] CSystem
+[514 / 600]
+[527 / 602]
+[534 / 605] chain
+[538 / 607]
+[541 / 608]
+[546 / 608] ComplexModule
+[563 / 611]
+[563 / 611] Metrics
+[571 / 611] Cmlx
+[576 / 621]
+[580 / 621]
+[583 / 621] Cmlx
+[589 / 621] Cmlx
+[589 / 621] MLX
+[595 / 622] cgenie-core
+[599 / 625] Cmlx
+[601 / 625] cgenie-core
+[608 / 626] cgenie-gem
+[610 / 627] cgenie-gem
+[616 / 627] chain
+[623 / 628] chaingem-product
+Please submit a bug report (https://swift.org/contributing/#reporting-bugs) and include the crash backtrace.
+Stack dump:
+0.	Program arguments: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift-frontend -frontend -c /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/Sources/chaingem/b12grads.swift /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/Sources/chaingem/b12jvp.swift /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/Sources/chaingem/b12jvpcarb.swift /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/Sources/chaingem/b12jvpflux.swift /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/Sources/chaingem/b12jvpfull.swift /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/Sources/chaingem/b12jvploop.swift /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/Sources/chaingem/b12probes.swift /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/Sources/chaingem/b13pairs.swift /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/Sources/chaingem/main.swift -supplementary-output-file-map /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/out/Intermediates.noindex/cGenieERASensitivity.build/Release/chaingem-p.build/Objects-normal/arm64/supplementaryOutputs-14 -target arm64-apple-macos27.0 -disable-cross-import-overlay-search -swift-module-cross-import Darwin /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Darwin.swiftcrossimport/xlocale.swiftoverlay -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib/swift/host/plugins/libFoundationMacros.dylib#/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin/swift-plugin-server#FoundationMacros -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib/swift/host/plugins/libObservationMacros.dylib#/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin/swift-plugin-server#ObservationMacros -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib/swift/host/plugins/libSwiftMacros.dylib#/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin/swift-plugin-server#SwiftMacros -disable-implicit-swift-modules -Xcc -fno-implicit-modules -Xcc -fno-implicit-module-maps -explicit-swift-module-map-file /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/out/Intermediates.noindex/cGenieERASensitivity.build/Release/chaingem-p.build/Objects-normal/arm64/chaingem-dependencies-1.json -Xllvm -aarch64-use-tbi -enable-objc-interop -stack-check -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.sdk -I /opt/homebrew/Cellar/netcdf/4.10.1_1/include -I /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/out/Products/Release -Isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib -F /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/out/Products/Release/PackageFrameworks -F /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/out/Products/Release -F /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks -module-cache-path /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/out/Intermediates.noindex/SwiftExplicitPrecompiledModules -color-diagnostics -Xcc -fcolor-diagnostics -g -debug-info-format=dwarf -dwarf-version=5 -swift-version 6 -O -D SWIFT_PACKAGE -D Xcode -serialize-debugging-options -enable-experimental-feature DebugDescriptionMacro -empty-abi-descriptor -validate-clang-modules-once -clang-build-session-file /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/out/ModuleCache.noindex/Session.modulevalidation -Xcc -working-directory -Xcc /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c -file-compilation-dir /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c -Xcc -fmodule-map-file=/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/swift-system/Sources/CSystem/include/module.modulemap -Xcc -fmodule-map-file=/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap -Xcc -fmodule-map-file=/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/swift-atomics/Sources/_AtomicsShims/include/module.modulemap -Xcc -fmodule-map-file=/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/SwiftNetCDF/Sources/CNetCDF/module.modulemap -Xcc -fmodule-map-file=/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/out/Intermediates.noindex/GeneratedModuleMaps/cLogSupport.modulemap -Xcc -fmodule-map-file=/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/include/module.modulemap -Xcc -ivfsstatcache -Xcc /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/out/SDKStatCaches.noindex/macosx27.0-26A425-80c5bbf1d171475443272936d42f90a37231f6df4def33e022ae2eb8f782df1a.sdkstatcache -Xcc -fmodules-prune-interval=86400 -Xcc -fmodules-prune-after=345600 -Xcc -I/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/swift-system/Sources/CSystem/include -Xcc -I/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/swift-numerics/Sources/_NumericsShims/include -Xcc -I/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/swift-atomics/Sources/_AtomicsShims/include -Xcc -I/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/cLogSupport/include -Xcc -I/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/include -Xcc -I/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/out/Products/Release/include -Xcc -I/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/out/Intermediates.noindex/cGenieERASensitivity.build/Release/chaingem-p.build/DerivedSources-normal/arm64 -Xcc -I/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/out/Intermediates.noindex/cGenieERASensitivity.build/Release/chaingem-p.build/DerivedSources/arm64 -Xcc -I/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/out/Intermediates.noindex/cGenieERASensitivity.build/Release/chaingem-p.build/DerivedSources -Xcc -DSWIFT_PACKAGE -no-auto-bridging-header-chaining -module-name chaingem -package-name adsens_o -const-gather-protocols-file /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/out/Intermediates.noindex/cGenieERASensitivity.build/Release/chaingem-p.build/Objects-normal/arm64/chaingem_const_extract_protocols.json -disable-clang-spi -clang-target arm64-apple-macos27.0 -target-sdk-version 27.0 -target-sdk-name macosx27.0 -in-process-plugin-server-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/libSwiftInProcPluginServer.dylib -enable-default-cmo -num-threads 16 -o /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/out/Intermediates.noindex/cGenieERASensitivity.build/Release/chaingem-p.build/Objects-normal/arm64/b12grads.o -o /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/out/Intermediates.noindex/cGenieERASensitivity.build/Release/chaingem-p.build/Objects-normal/arm64/b12jvp.o -o /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/out/Intermediates.noindex/cGenieERASensitivity.build/Release/chaingem-p.build/Objects-normal/arm64/b12jvpcarb.o -o /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/out/Intermediates.noindex/cGenieERASensitivity.build/Release/chaingem-p.build/Objects-normal/arm64/b12jvpflux.o -o /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/out/Intermediates.noindex/cGenieERASensitivity.build/Release/chaingem-p.build/Objects-normal/arm64/b12jvpfull.o -o /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/out/Intermediates.noindex/cGenieERASensitivity.build/Release/chaingem-p.build/Objects-normal/arm64/b12jvploop.o -o /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/out/Intermediates.noindex/cGenieERASensitivity.build/Release/chaingem-p.build/Objects-normal/arm64/b12probes.o -o /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/out/Intermediates.noindex/cGenieERASensitivity.build/Release/chaingem-p.build/Objects-normal/arm64/b13pairs.o -o /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/out/Intermediates.noindex/cGenieERASensitivity.build/Release/chaingem-p.build/Objects-normal/arm64/main.o -debug-module-path /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/out/Intermediates.noindex/cGenieERASensitivity.build/Release/chaingem-p.build/Objects-normal/arm64/chaingem.swiftmodule -index-unit-output-path /cGenieERASensitivity.build/Release/chaingem-p.build/Objects-normal/arm64/b12grads.o -index-unit-output-path /cGenieERASensitivity.build/Release/chaingem-p.build/Objects-normal/arm64/b12jvp.o -index-unit-output-path /cGenieERASensitivity.build/Release/chaingem-p.build/Objects-normal/arm64/b12jvpcarb.o -index-unit-output-path /cGenieERASensitivity.build/Release/chaingem-p.build/Objects-normal/arm64/b12jvpflux.o -index-unit-output-path /cGenieERASensitivity.build/Release/chaingem-p.build/Objects-normal/arm64/b12jvpfull.o -index-unit-output-path /cGenieERASensitivity.build/Release/chaingem-p.build/Objects-normal/arm64/b12jvploop.o -index-unit-output-path /cGenieERASensitivity.build/Release/chaingem-p.build/Objects-normal/arm64/b12probes.o -index-unit-output-path /cGenieERASensitivity.build/Release/chaingem-p.build/Objects-normal/arm64/b13pairs.o -index-unit-output-path /cGenieERASensitivity.build/Release/chaingem-p.build/Objects-normal/arm64/main.o
+1.	Apple Swift version 6.4 (swiftlang-6.4.0.34.1 clang-2100.3.34.1)
+2.	Compiling with the current language version
+3.	While emitting IR SIL function "@$s8chaingem12b1ObsAtmPco2ySd5chain14GemBoxStateF64V_AC0gh6FluxesJ0VtFTJpSSpSr010$s5chain14ghij43V13TangentVectorVAA0bc7MetricsE0VADVAeA0bc6kR29VADVIeggyoo_TJSpSSUUpSSrSSUUPAE0nO0VAC0ghqJ0VAIVAjgIVIeggyoo_082$sSa16_DifferentiationAA14DifferentiableRzlE13_vjpSubscript5indexx5value_SaA2aBRzlr10B4ViewVy13nO42Qz_GAIc8pullbacktSi_tFAKL_yAjiaBRzlFSd_TG5SaySdGSiTf1nEE_nTf4ngnn_n".
+ for 'b1ObsAtmPco2(_:_:)' (at /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/Sources/chaingem/main.swift:455:1)
+Stack dump without symbol names (ensure you have llvm-symbolizer in your PATH or set the environment var `LLVM_SYMBOLIZER_PATH` to point to it):
+0  swift-frontend           0x0000000107487bd0 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) + 56
+1  swift-frontend           0x0000000107485358 llvm::sys::RunSignalHandlers() + 172
+2  swift-frontend           0x00000001074881c8 SignalHandler(int, __siginfo*, void*) + 360
+3  libsystem_platform.dylib 0x0000000193210144 _sigtramp + 56
+4  swift-frontend           0x00000001071e56e4 llvm::Value::setMetadata(unsigned int, llvm::MDNode*) + 128
+5  swift-frontend           0x00000001071e56e4 llvm::Value::setMetadata(unsigned int, llvm::MDNode*) + 128
+6  swift-frontend           0x00000001010791b0 llvm::IRBuilderBase::CreateCast(llvm::Instruction::CastOps, llvm::Value*, llvm::Type*, llvm::Twine const&, llvm::MDNode*, llvm::FMFSource) + 380
+7  swift-frontend           0x000000010159bc90 swift::irgen::reemitAsUnsubstituted(swift::irgen::IRGenFunction&, swift::SILType, swift::SILType, swift::irgen::Explosion&, swift::irgen::Explosion&) + 716
+8  swift-frontend           0x000000010168d954 emitApplyArgument((anonymous namespace)::IRGenSILFunction&, swift::SILValue, swift::SILType, swift::irgen::Explosion&, swift::SILInstruction*, unsigned int, bool) + 784
+9  swift-frontend           0x000000010168c05c (anonymous namespace)::IRGenSILFunction::visitFullApplySite(swift::FullApplySite) + 5232
+10 swift-frontend           0x0000000101663bdc (anonymous namespace)::IRGenSILFunction::visitSILBasicBlock(swift::SILBasicBlock*) + 3492
+11 swift-frontend           0x0000000101661bbc (anonymous namespace)::IRGenSILFunction::emitSILFunction() + 10400
+12 swift-frontend           0x000000010165f024 swift::irgen::IRGenModule::emitSILFunction(swift::SILFunction*) + 2688
+13 swift-frontend           0x00000001014a3b98 swift::irgen::IRGenerator::emitLazyDefinitions() + 8120
+14 swift-frontend           0x0000000101611690 swift::performIRGeneration(swift::ModuleDecl*, swift::IRGenOptions const&, swift::TBDGenOptions const&, std::__1::unique_ptr<swift::SILModule, std::__1::default_delete<swift::SILModule>>, llvm::StringRef, swift::PrimarySpecificPaths const&, std::__1::shared_ptr<llvm::cas::ObjectStore>, llvm::ArrayRef<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>>, llvm::ArrayRef<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>>, llvm::GlobalVariable**, swift::cas::SwiftCASOutputBackend*, std::__1::optional<llvm::cas::ObjectRef>) + 5528
+15 swift-frontend           0x0000000100f9fe10 generateIR(swift::IRGenOptions const&, swift::TBDGenOptions const&, std::__1::unique_ptr<swift::SILModule, std::__1::default_delete<swift::SILModule>>, swift::PrimarySpecificPaths const&, std::__1::shared_ptr<llvm::cas::ObjectStore>, swift::cas::SwiftCASOutputBackend*, llvm::StringRef, llvm::PointerUnion<swift::ModuleDecl*, swift::SourceFile*>, llvm::GlobalVariable*&, llvm::ArrayRef<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>>, llvm::ArrayRef<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>>, std::__1::optional<llvm::cas::ObjectRef>) + 308
+16 swift-frontend           0x0000000100f98d54 performCompileStepsPostSILGen(swift::CompilerInstance&, std::__1::unique_ptr<swift::SILModule, std::__1::default_delete<swift::SILModule>>, llvm::PointerUnion<swift::ModuleDecl*, swift::SourceFile*>, swift::PrimarySpecificPaths const&, int&, swift::FrontendObserver*, llvm::ArrayRef<char const*>, llvm::ArrayRef<swift::PrimarySpecificPaths>) + 2852
+17 swift-frontend           0x0000000100f97dd0 swift::performCompileStepsPostSema(swift::CompilerInstance&, int&, swift::FrontendObserver*, llvm::ArrayRef<char const*>) + 3944
+18 swift-frontend           0x0000000100f9cc0c performCompile(swift::CompilerInstance&, int&, swift::FrontendObserver*, llvm::ArrayRef<char const*>) + 1312
+19 swift-frontend           0x0000000100f99dc4 swift::performFrontend(llvm::ArrayRef<char const*>, char const*, void*, swift::FrontendObserver*) + 3776
+20 swift-frontend           0x0000000100f19008 swift::mainEntry(int, char const**) + 5600
+21 dyld                     0x0000000192e2fe80 start + 6688
+Failed frontend command:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift-frontend -frontend -c /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/Sources/chaingem/b12grads.swift /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/Sources/chaingem/b12jvp.swift /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/Sources/chaingem/b12jvpcarb.swift /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/Sources/chaingem/b12jvpflux.swift /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/Sources/chaingem/b12jvpfull.swift /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/Sources/chaingem/b12jvploop.swift /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/Sources/chaingem/b12probes.swift /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/Sources/chaingem/b13pairs.swift /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/Sources/chaingem/main.swift -supplementary-output-file-map /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/out/Intermediates.noindex/cGenieERASensitivity.build/Release/chaingem-p.build/Objects-normal/arm64/supplementaryOutputs-14 -target arm64-apple-macos27.0 -disable-cross-import-overlay-search -swift-module-cross-import Darwin /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Darwin.swiftcrossimport/xlocale.swiftoverlay -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib/swift/host/plugins/libFoundationMacros.dylib\#/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin/swift-plugin-server\#FoundationMacros -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib/swift/host/plugins/libObservationMacros.dylib\#/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin/swift-plugin-server\#ObservationMacros -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib/swift/host/plugins/libSwiftMacros.dylib\#/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin/swift-plugin-server\#SwiftMacros -disable-implicit-swift-modules -Xcc -fno-implicit-modules -Xcc -fno-implicit-module-maps -explicit-swift-module-map-file /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/out/Intermediates.noindex/cGenieERASensitivity.build/Release/chaingem-p.build/Objects-normal/arm64/chaingem-dependencies-1.json -Xllvm -aarch64-use-tbi -enable-objc-interop -stack-check -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.sdk -I /opt/homebrew/Cellar/netcdf/4.10.1_1/include -I /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/out/Products/Release -Isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib -F /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/out/Products/Release/PackageFrameworks -F /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/out/Products/Release -F /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks -module-cache-path /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/out/Intermediates.noindex/SwiftExplicitPrecompiledModules -color-diagnostics -Xcc -fcolor-diagnostics -g -debug-info-format\=dwarf -dwarf-version\=5 -swift-version 6 -O -D SWIFT_PACKAGE -D Xcode -serialize-debugging-options -enable-experimental-feature DebugDescriptionMacro -empty-abi-descriptor -validate-clang-modules-once -clang-build-session-file /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/out/ModuleCache.noindex/Session.modulevalidation -Xcc -working-directory -Xcc /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c -file-compilation-dir /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c -Xcc -fmodule-map-file\=/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/swift-system/Sources/CSystem/include/module.modulemap -Xcc -fmodule-map-file\=/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap -Xcc -fmodule-map-file\=/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/swift-atomics/Sources/_AtomicsShims/include/module.modulemap -Xcc -fmodule-map-file\=/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/SwiftNetCDF/Sources/CNetCDF/module.modulemap -Xcc -fmodule-map-file\=/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/out/Intermediates.noindex/GeneratedModuleMaps/cLogSupport.modulemap -Xcc -fmodule-map-file\=/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/include/module.modulemap -Xcc -ivfsstatcache -Xcc /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/out/SDKStatCaches.noindex/macosx27.0-26A425-80c5bbf1d171475443272936d42f90a37231f6df4def33e022ae2eb8f782df1a.sdkstatcache -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -Xcc -I/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/swift-system/Sources/CSystem/include -Xcc -I/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/swift-numerics/Sources/_NumericsShims/include -Xcc -I/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/swift-atomics/Sources/_AtomicsShims/include -Xcc -I/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/cLogSupport/include -Xcc -I/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/checkouts/mlx-swift/Source/Cmlx/include -Xcc -I/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/out/Products/Release/include -Xcc -I/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/out/Intermediates.noindex/cGenieERASensitivity.build/Release/chaingem-p.build/DerivedSources-normal/arm64 -Xcc -I/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/out/Intermediates.noindex/cGenieERASensitivity.build/Release/chaingem-p.build/DerivedSources/arm64 -Xcc -I/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/out/Intermediates.noindex/cGenieERASensitivity.build/Release/chaingem-p.build/DerivedSources -Xcc -DSWIFT_PACKAGE -no-auto-bridging-header-chaining -module-name chaingem -package-name adsens_o -const-gather-protocols-file /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/out/Intermediates.noindex/cGenieERASensitivity.build/Release/chaingem-p.build/Objects-normal/arm64/chaingem_const_extract_protocols.json -disable-clang-spi -clang-target arm64-apple-macos27.0 -target-sdk-version 27.0 -target-sdk-name macosx27.0 -in-process-plugin-server-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/libSwiftInProcPluginServer.dylib -enable-default-cmo -num-threads 16 -o /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/out/Intermediates.noindex/cGenieERASensitivity.build/Release/chaingem-p.build/Objects-normal/arm64/b12grads.o -o /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/out/Intermediates.noindex/cGenieERASensitivity.build/Release/chaingem-p.build/Objects-normal/arm64/b12jvp.o -o /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/out/Intermediates.noindex/cGenieERASensitivity.build/Release/chaingem-p.build/Objects-normal/arm64/b12jvpcarb.o -o /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/out/Intermediates.noindex/cGenieERASensitivity.build/Release/chaingem-p.build/Objects-normal/arm64/b12jvpflux.o -o /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/out/Intermediates.noindex/cGenieERASensitivity.build/Release/chaingem-p.build/Objects-normal/arm64/b12jvpfull.o -o /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/out/Intermediates.noindex/cGenieERASensitivity.build/Release/chaingem-p.build/Objects-normal/arm64/b12jvploop.o -o /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/out/Intermediates.noindex/cGenieERASensitivity.build/Release/chaingem-p.build/Objects-normal/arm64/b12probes.o -o /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/out/Intermediates.noindex/cGenieERASensitivity.build/Release/chaingem-p.build/Objects-normal/arm64/b13pairs.o -o /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/out/Intermediates.noindex/cGenieERASensitivity.build/Release/chaingem-p.build/Objects-normal/arm64/main.o -debug-module-path /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/adsens-O/.build/out/Intermediates.noindex/cGenieERASensitivity.build/Release/chaingem-p.build/Objects-normal/arm64/chaingem.swiftmodule -index-unit-output-path /cGenieERASensitivity.build/Release/chaingem-p.build/Objects-normal/arm64/b12grads.o -index-unit-output-path /cGenieERASensitivity.build/Release/chaingem-p.build/Objects-normal/arm64/b12jvp.o -index-unit-output-path /cGenieERASensitivity.build/Release/chaingem-p.build/Objects-normal/arm64/b12jvpcarb.o -index-unit-output-path /cGenieERASensitivity.build/Release/chaingem-p.build/Objects-normal/arm64/b12jvpflux.o -index-unit-output-path /cGenieERASensitivity.build/Release/chaingem-p.build/Objects-normal/arm64/b12jvpfull.o -index-unit-output-path /cGenieERASensitivity.build/Release/chaingem-p.build/Objects-normal/arm64/b12jvploop.o -index-unit-output-path /cGenieERASensitivity.build/Release/chaingem-p.build/Objects-normal/arm64/b12probes.o -index-unit-output-path /cGenieERASensitivity.build/Release/chaingem-p.build/Objects-normal/arm64/b13pairs.o -index-unit-output-path /cGenieERASensitivity.build/Release/chaingem-p.build/Objects-normal/arm64/main.o
+error: Build failed

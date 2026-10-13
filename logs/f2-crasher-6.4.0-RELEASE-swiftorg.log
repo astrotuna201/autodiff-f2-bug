@@ -1,0 +1,72 @@
+Fetching https://github.com/differentiable-swift/swift-differentiation from cache
+Fetching https://github.com/differentiable-swift/swift-differentiation-stdlib from cache
+Fetched https://github.com/differentiable-swift/swift-differentiation-stdlib from cache (0.62s)
+Fetched https://github.com/differentiable-swift/swift-differentiation from cache (0.63s)
+Computing version for https://github.com/differentiable-swift/swift-differentiation
+Computed https://github.com/differentiable-swift/swift-differentiation at 3.1.0 (1.07s)
+Computing version for https://github.com/differentiable-swift/swift-differentiation-stdlib
+Computed https://github.com/differentiable-swift/swift-differentiation-stdlib at 604.0.0 (0.40s)
+Creating working copy for https://github.com/differentiable-swift/swift-differentiation
+Working copy of https://github.com/differentiable-swift/swift-differentiation resolved at 3.1.0
+Creating working copy for https://github.com/differentiable-swift/swift-differentiation-stdlib
+Working copy of https://github.com/differentiable-swift/swift-differentiation-stdlib resolved at 604.0.0
+Fetching binary artifact https://github.com/differentiable-swift/swift-differentiation-stdlib/releases/download/604.0.0/_Differentiation-swift-6.4.0-RELEASE.xcframework.zip from cache
+Fetched https://github.com/differentiable-swift/swift-differentiation-stdlib/releases/download/604.0.0/_Differentiation-swift-6.4.0-RELEASE.xcframework.zip from cache (0.13s)
+warning: 'adbug': dependency 'swift-differentiation-stdlib' is not used by any target
+warning: 'adbug': dependency 'swift-differentiation-stdlib' is not used by any target
+Building for production...
+[Pre-planning 1 / 68]
+[Planning deferred tasks]
+[12 / 34]
+[23 / 35] Differentiation
+[33 / 85]
+[37 / 85]
+[42 / 85]
+[46 / 85]
+[49 / 85]
+[54 / 85]
+[58 / 85]
+[60 / 85]
+[62 / 85]
+[65 / 85]
+[68 / 85]
+[69 / 85]
+[71 / 85]
+[72 / 85]
+[73 / 85]
+[74 / 85] Differentiation
+[81 / 86] f2-product
+[85 / 100]
+[90 / 100]
+[91 / 100]
+[93 / 100]
+[95 / 100]
+Invalid bitcast
+ptr bitcast (double 1.000000e+00 to ptr)
+Invalid bitcast
+  %4 = bitcast double %0 to ptr, !dbg !865
+<unknown>:0: [1;31merror: [1;39mfatal error encountered during compilation; please submit a bug report (https://swift.org/contributing/#reporting-bugs)[0;0m
+<unknown>:0: [1;39mnote: [1;39mBroken module found, compilation aborted![0;0m
+Please submit a bug report (https://swift.org/contributing/#reporting-bugs) and include the crash backtrace.
+Stack dump:
+0.	Running pass "verify" on module "/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/s64rel-adbug/out/Intermediates.noindex/f2.build/Release/f2-p.build/Objects-normal/arm64/ad-sensitivity-f2-minrepro.o"
+ #0 0x0000000107f28558 (/Users/wiggles/Library/Developer/Toolchains/swift-6.4.0-RELEASE.xctoolchain/usr/bin/swift-frontend+0x10542c558)
+ #1 0x0000000107f26880 (/Users/wiggles/Library/Developer/Toolchains/swift-6.4.0-RELEASE.xctoolchain/usr/bin/swift-frontend+0x10542a880)
+ #2 0x0000000107f28f94 (/Users/wiggles/Library/Developer/Toolchains/swift-6.4.0-RELEASE.xctoolchain/usr/bin/swift-frontend+0x10542cf94)
+ #3 0x0000000193210144 (/usr/lib/system/libsystem_platform.dylib+0x180898144)
+ #4 0x000000019320597c (/usr/lib/system/libsystem_pthread.dylib+0x18088d97c)
+ #5 0x0000000193108458 (/usr/lib/system/libsystem_c.dylib+0x180790458)
+ #6 0x0000000102fb045c (/Users/wiggles/Library/Developer/Toolchains/swift-6.4.0-RELEASE.xctoolchain/usr/bin/swift-frontend+0x1004b445c)
+ #7 0x0000000107ea7310 (/Users/wiggles/Library/Developer/Toolchains/swift-6.4.0-RELEASE.xctoolchain/usr/bin/swift-frontend+0x1053ab310)
+ #8 0x0000000107ea7210 (/Users/wiggles/Library/Developer/Toolchains/swift-6.4.0-RELEASE.xctoolchain/usr/bin/swift-frontend+0x1053ab210)
+ #9 0x0000000107d2c4a0 (/Users/wiggles/Library/Developer/Toolchains/swift-6.4.0-RELEASE.xctoolchain/usr/bin/swift-frontend+0x1052304a0)
+#10 0x0000000107d0c204 (/Users/wiggles/Library/Developer/Toolchains/swift-6.4.0-RELEASE.xctoolchain/usr/bin/swift-frontend+0x105210204)
+#11 0x0000000103230030 (/Users/wiggles/Library/Developer/Toolchains/swift-6.4.0-RELEASE.xctoolchain/usr/bin/swift-frontend+0x100734030)
+#12 0x0000000103231b84 (/Users/wiggles/Library/Developer/Toolchains/swift-6.4.0-RELEASE.xctoolchain/usr/bin/swift-frontend+0x100735b84)
+#13 0x0000000103238570 (/Users/wiggles/Library/Developer/Toolchains/swift-6.4.0-RELEASE.xctoolchain/usr/bin/swift-frontend+0x10073c570)
+#14 0x0000000103238464 (/Users/wiggles/Library/Developer/Toolchains/swift-6.4.0-RELEASE.xctoolchain/usr/bin/swift-frontend+0x10073c464)
+#15 0x0000000193205d00 (/usr/lib/system/libsystem_pthread.dylib+0x18088dd00)
+#16 0x0000000193200cec (/usr/lib/system/libsystem_pthread.dylib+0x180888cec)
+Failed frontend command:
+/Users/wiggles/Library/Developer/Toolchains/swift-6.4.0-RELEASE.xctoolchain/usr/bin/swift-frontend -frontend -c /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/adbug/Sources/f2/ad-sensitivity-f2-minrepro.swift -emit-module-path /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/s64rel-adbug/out/Intermediates.noindex/f2.build/Release/f2-p.build/Objects-normal/arm64/f2.swiftmodule -emit-module-doc-path /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/s64rel-adbug/out/Intermediates.noindex/f2.build/Release/f2-p.build/Objects-normal/arm64/f2.swiftdoc -emit-module-source-info-path /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/s64rel-adbug/out/Intermediates.noindex/f2.build/Release/f2-p.build/Objects-normal/arm64/f2.swiftsourceinfo -emit-dependencies-path /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/s64rel-adbug/out/Intermediates.noindex/f2.build/Release/f2-p.build/Objects-normal/arm64/f2-primary.d -emit-const-values-path /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/s64rel-adbug/out/Intermediates.noindex/f2.build/Release/f2-p.build/Objects-normal/arm64/f2-primary.swiftconstvalues -serialize-diagnostics-path /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/s64rel-adbug/out/Intermediates.noindex/f2.build/Release/f2-p.build/Objects-normal/arm64/f2-primary.dia -emit-abi-descriptor-path /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/s64rel-adbug/out/Intermediates.noindex/f2.build/Release/f2-p.build/Objects-normal/arm64/f2.abi.json -target arm64-apple-macos27.0 -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib/swift/host/plugins/libFoundationMacros.dylib\#/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin/swift-plugin-server\#FoundationMacros -load-resolved-plugin /Users/wiggles/Library/Developer/Toolchains/swift-6.4.0-RELEASE.xctoolchain/usr/lib/swift/host/plugins/libObservationMacros.dylib\#\#ObservationMacros -load-resolved-plugin /Users/wiggles/Library/Developer/Toolchains/swift-6.4.0-RELEASE.xctoolchain/usr/lib/swift/host/plugins/libSwiftMacros.dylib\#\#SwiftMacros -disable-implicit-swift-modules -Xcc -fno-implicit-modules -Xcc -fno-implicit-module-maps -explicit-swift-module-map-file /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/s64rel-adbug/out/Intermediates.noindex/f2.build/Release/f2-p.build/Objects-normal/arm64/f2-dependencies-1.json -Xllvm -aarch64-use-tbi -enable-objc-interop -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.sdk -I /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/s64rel-adbug/out/Products/Release -Isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib -F /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/s64rel-adbug/out/Products/Release/PackageFrameworks -F /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/s64rel-adbug/out/Products/Release -F /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks -module-cache-path /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/s64rel-adbug/out/Intermediates.noindex/SwiftExplicitPrecompiledModules -color-diagnostics -Xcc -fcolor-diagnostics -g -debug-info-format\=dwarf -dwarf-version\=5 -swift-version 6 -O -D SWIFT_PACKAGE -D Xcode -serialize-debugging-options -enable-experimental-feature DebugDescriptionMacro -empty-abi-descriptor -validate-clang-modules-once -clang-build-session-file /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/s64rel-adbug/out/ModuleCache.noindex/Session.modulevalidation -Xcc -working-directory -Xcc /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp -file-compilation-dir /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -Xcc -I/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/s64rel-adbug/out/Products/Release/include -Xcc -I/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/s64rel-adbug/out/Intermediates.noindex/f2.build/Release/f2-p.build/DerivedSources-normal/arm64 -Xcc -I/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/s64rel-adbug/out/Intermediates.noindex/f2.build/Release/f2-p.build/DerivedSources/arm64 -Xcc -I/Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/s64rel-adbug/out/Intermediates.noindex/f2.build/Release/f2-p.build/DerivedSources -Xcc -DSWIFT_PACKAGE -no-auto-bridging-header-chaining -module-name f2 -package-name adbug -const-gather-protocols-file /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/s64rel-adbug/out/Intermediates.noindex/f2.build/Release/f2-p.build/Objects-normal/arm64/f2_const_extract_protocols.json -in-process-plugin-server-path /Users/wiggles/Library/Developer/Toolchains/swift-6.4.0-RELEASE.xctoolchain/usr/lib/swift/host/libSwiftInProcPluginServer.dylib -clang-target arm64-apple-macos27.0 -target-sdk-version 27.0 -target-sdk-name macosx27.0 -enable-default-cmo -num-threads 16 -o /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/s64rel-adbug/out/Intermediates.noindex/f2.build/Release/f2-p.build/Objects-normal/arm64/ad-sensitivity-f2-minrepro.o -debug-module-path /Users/wiggles/Developer_Disk/nonApple/cGenieERA/agent_temp/f2c/s64rel-adbug/out/Intermediates.noindex/f2.build/Release/f2-p.build/Objects-normal/arm64/f2.swiftmodule -index-unit-output-path /f2.build/Release/f2-p.build/Objects-normal/arm64/ad-sensitivity-f2-minrepro.o
+error: Build failed

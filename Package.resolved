@@ -1,0 +1,24 @@
+{
+  "originHash" : "2ace254ddd6bdbe19272cfb84a6b33e132f579ab8a4d109c3185a3c103465251",
+  "pins" : [
+    {
+      "identity" : "swift-differentiation",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/differentiable-swift/swift-differentiation",
+      "state" : {
+        "revision" : "1361b9b2efac345e082242179f6634fcc9ea17cc",
+        "version" : "3.1.0"
+      }
+    },
+    {
+      "identity" : "swift-differentiation-stdlib",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/differentiable-swift/swift-differentiation-stdlib",
+      "state" : {
+        "revision" : "e96b16df7437e9b357dea9c0db6ad3a76cddfecd",
+        "version" : "604.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}
